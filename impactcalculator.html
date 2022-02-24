@@ -1,0 +1,30 @@
+<html>
+<head></head>
+<body>
+
+<script type="text/javascript">
+  function sum(){
+    A=eval(document.calculation.wins.value)*eval(document.calculation.loss.value)
+    document.calculation.field4.value=A
+    }
+ 
+ 
+  </script>
+  <form name="calculation" action="" method="post" align="center">
+    No of hours you want to volunteer:
+   <input type="text" name="wins" value="" size="10" maxlength="10">
+   <br>
+   
+   <br>
+   <br> No of students you can handle per class:
+   <input type="text" name="loss" value="" size="10" maxlength="10">
+   <br>
+   <br>
+   <input type="button" value="Calculate" onclick="sum()">
+   <br>
+   
+   <br> Congratulations!you will impact these number of lives:
+   <input type="text" name="field4" value="" size="10" maxlength="10">
+  </form>
+</body>
+</html
